@@ -23,7 +23,7 @@ print """
 """
 print ""
 print ""
-proxylisttext = raw_input("https://pastebin.com/raw/Q6gWxddz")
+proxylisttext = raw_input("proxylist.txt")
 """
 useragent section - Deceive the web host to be a browser from the list of user agents. 
 					Important not to be recognized as a bot. 
