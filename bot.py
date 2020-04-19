@@ -23,7 +23,7 @@ print """
 """
 print ""
 print ""
-proxylisttext = raw_input("--> Path to your Proxylist file: ")
+proxylisttext = raw_input("https://pastebin.com/raw/Q6gWxddz")
 """
 useragent section - Deceive the web host to be a browser from the list of user agents. 
 					Important not to be recognized as a bot. 
@@ -56,7 +56,7 @@ useragent = ['Mozilla/4.0 (compatible; MSIE 5.0; SunOS 5.10 sun4u; X11)',
            'Mozilla/5.0 (Macintosh; PPC Mac OS X 10.5; rv:10.0.2) Gecko/20120216 Firefox/10.0.2 TenFourFox/7450',
 		'Mozilla/4.0 (compatible; MSIE 5.0; Windows ME) Opera 5.11 [en]']
 
-referer	= ['http://google.com','http://bing.com','http://facebook.com','http://twitter.com','http://ask.com','http://baidu.com','http://m.facebook.com','http://m.facebook.de','http://instagram.de','http://youtube.de','http://ebay.de','http://amazon.de','http://zalando.de','http://blogspot.de','http://www.abacho.de','http://acoon.de','http://www.bellnet.com','http://www.apollo7.de','http://www.bigfoot.com','http://www.altavista.com','http://www.blitzsuche.de','http://www.cnet.com','http://www.goto.com','http://www.greenseek.de','http://www.excite.de','http://netguide.de','http://www.search11.ch','http://www.conrad.de','http://yellow.com',"http://www.suchen.de",'http://ask.fm','http://sharelook.de']
+referer	= ['http://google.com']
 link_invation = raw_input("--> Link to Autovisit (Full URL with http:// or https://): ")
 
 def bot(proxy1):
